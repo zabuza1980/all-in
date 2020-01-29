@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<form action="https://formspree.io/mpzpblej" method="POST" id="form" ><div>
+    <!-- Podstawowe pole tekstowe --> 
+    <fieldset>
+        <legend>Dane osobowe</legend>
+            <p>
+                imię._________:<input type="text" name="Imię"><br>
+                nazwisko._____:<input type="text" name="Nazwisko"><br>
+                e-mail________:<input type="text" name="E-mail"><br>
+                numer telefonu_:<input type="text" name="Numer telefornu">
+            </p>
+    </fieldset>
+    <br>
+    <!-- Pole typu select -->
+    <fieldset>
+        <legend>Wybierz miasto w którym chciałbyś uczęszczać na nasz kurs</legend>
+            <p>
+                <select name="Miasto" multiple size="3">
+                    <option>Kraków</option>
+                    <option>Warszawa</option>
+                    <option>Gdańsk</option>
+                </select>
+            </p>
+    </fieldset>
+    <br>
+     <!-- Pole typu RADIO -->
+    <fieldset>
+        <legend>Podaj swoją płeć</legend>
+            <p>
+                <input type="radio" name="Płeć" value="Kobieta">Kobieta
+                <input type="radio" name="Płeć" value="Mężczyzna">Mężczyzna
+            </p>
+    </fieldset>
+    <br>
+    <!-- Pole typu CHECKBOX -->
+    <fieldset>
+        <legend>RODO</legend>
+           <p> 
+               <input type="checkbox" name="Przetwarzanie danych" value="zgoda">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb rekrutacji (zgodnie z art. 6 ust. 1 lit. a Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE
+           </p>
+   </fieldset>
+   <br>
+    <fieldset>
+        <legend>Napisz coś o sobie</legend>
+        <p>
+          <label></label>
+          <textarea id = "wiadomość" 
+                    class="text" 
+                    rows = "3"
+                    cols = "80"
+                    name= "wiadomość"
+                    form= "form">Tutaj wpisz swój tekst</textarea>
+        </p>
+    </fieldset>
+    <!-- Przycisk WYŚLIJ -->
+    <input type="submit" value="Wyślij formularz">
+    <!-- Przycisk WYCZYŚĆ DANE -->
+    <input type="reset" value="Wyczyść dane">
+</div></form>
+
+
+
+</body>
+</html>
