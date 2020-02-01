@@ -2,25 +2,27 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
-    height: 380px;
-    width: 380px;
+    height: 378px;
+    width: 378px;
     background-color: rgb(251, 245, 234);
     padding: 3px;
+    display: inline-block;
 }
 .square{
-    display: inline-block;
+    
     padding: 12px;
     width:  100px;
     height: 100px;
     background-color: #e8e4eb;
+    display: flex;
+    float: left;
+    border: rgb(251, 245, 234) solid 1px;
+    justify-content: center;
+    align-items: center;
      
 }
 .circle{
-    position: relative;
-    margin-top: 13%;
-    margin-bottom: 13%;
-    margin-left: 13px;
-    margin-right: 13px;
+
     width: 70px;
     height: 70px;
     border-radius: 50%;
