@@ -1,0 +1,84 @@
+.container{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 380px;
+    width: 380px;
+    background-color: rgb(251, 245, 234);
+    padding: 3px;
+}
+.square{
+    display: inline-block;
+    padding: 12px;
+    width:  100px;
+    height: 100px;
+    background-color: #e8e4eb;
+     
+}
+.circle{
+    position: relative;
+    margin-top: 13%;
+    margin-bottom: 13%;
+    margin-left: 13px;
+    margin-right: 13px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    
+}
+#pierwszy {
+ background-color: red;
+}
+#drugi {
+ background-color: blue;
+}
+#trzeci {
+ background-color: green;
+}
+#czwarty {
+ background-color: yellow;
+}
+#piaty {
+ background-color: black;
+}
+#szosty {
+ background-color: orange;
+}
+#siudmy {
+ background-color: rgb(107, 11, 202);
+}
+#osmy {
+ background-color: grey;
+}
+#dziewiaty {
+ background-color: pink;
+}
+#c1 {
+    background-color: pink;
+}
+#c2 {
+    background-color: grey;
+}
+#c3 {
+    background-color: rgb(107, 11, 202);
+}
+#c4 {
+    background-color: green;
+}
+#c5 {
+    background-color: red;
+}
+#c6 {
+    background-color: blue;
+}
+#c7 {
+    background-color: orange;
+}
+#c8 {
+    background-color: yellow;
+}
+#c9 {
+    background-color: black;
+}
